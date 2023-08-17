@@ -12,7 +12,8 @@ module.exports = {
       "Inter":['Inter', 'sans-serif']
      },
      colors:{
-      "brand-purple":"#ab66ff"
+      "brand-purple":"#ab66ff",
+      "brand-purpleHover":"#9238ff"
      }
     },
   },

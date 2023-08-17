@@ -48,7 +48,7 @@ function Hero() {
             <img
               src="https://www.prezo.ai/_ipx/_/images/gradient-full.svg"
               alt="Prezo gradient"
-              className="absolute w-[1000px] h-[825px] top-0 object-cover"
+              className="absolute w-[1000px] h-[825px] top-[200px] object-cover"
             />
             <div className="absolute w-full h-[140px] z-[1] rounded-t-[30px] bg-white bottom-0 bring-in-large" />
           </div>
@@ -111,12 +111,12 @@ function Hero() {
             <main className="w-full flex flex-1 flex-col items-center relative z-[1]">
               <section className="w-full z-1" style={{ maxWidth: "1204px" }}>
                 <div className="relative md:sticky top-[80px] flex flex-col items-center px-5 md:px-0 bring-in-small-1">
-                  <label className="hidden md:inline-block text-white mt-[60px] font-GeneralSans font-semibold text-[34px] leading-[38px] md:text-[56px] md:leading-[60px] text-center max-w-full md:max-w-[940px] font-heading">
+                  <label className="hidden md:inline-block text-white mt-[60px] font-GeneralSans font-semibold text-[34px] leading-[38px] md:text-[56px] md:leading-[60px] text-center max-w-full md:max-w-[940px]  font-GeneralSans">
                     Create beautiful
                     <br />
                     presentations with AI
                   </label>
-                  <label className="inline-block md:hidden text-white mt-[60px] font-semibold text-[34px] leading-[38px] md:text-[56px] md:leading-[60px] text-center max-w-full md:max-w-[940px] font-heading">
+                  <label className="inline-block md:hidden text-white mt-[60px] font-semibold text-[34px] leading-[38px] md:text-[56px] md:leading-[60px] text-center max-w-full md:max-w-[940px]  font-GeneralSans">
                     Create beautiful presentations with AI
                   </label>
                   <label className="text-white mt-[25px] font-Inter text-[14px] md:text-xl leading-[19px] tracking-tight md:leading-[28px] font-medium text-center max-w-full md:max-w-[590px]">
@@ -125,7 +125,7 @@ function Hero() {
                   </label>
                   <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3 md:gap-4">
                     <button
-                      className="flex items-center justify-center cursor-pointer text-xl rounded-2xl font-semibold leading-6 px-4 py-3 font-heading transition-all duration-100 bg-white text-brand-purple hover:bg-[#F5F5F5] hover:text-brand-purple active:bg-neutral-200 active:text-brand-purple w-64 md:w-64"
+                      className="flex items-center justify-center cursor-pointer text-xl rounded-2xl font-semibold leading-6 px-4 py-3  font-GeneralSans transition-all duration-100 bg-white text-brand-purple hover:bg-[#F5F5F5] hover:text-brand-purple active:bg-neutral-200 active:text-brand-purple w-64 md:w-64"
                       aria-label="Watch video"
                     >
                       Watch video
@@ -146,7 +146,7 @@ function Hero() {
                     </div>
                     <Link href="https://app.prezo.ai/signup" target="_blank">
                       <button
-                        className="flex items-center justify-center cursor-pointer text-xl rounded-2xl font-semibold leading-6 px-4 py-3 font-heading transition-all duration-100 bg-brand-purple text-white hover:bg-brand-purpleHover active:bg-brand-purpleActive w-64 md:w-64"
+                        className="flex items-center justify-center cursor-pointer text-xl rounded-2xl font-semibold leading-6 px-4 py-3  font-GeneralSans transition-all duration-100 bg-brand-purple text-white hover:bg-brand-purpleHover active:bg-brand-purpleActive w-64 md:w-64"
                         aria-label="Try for free"
                       >
                         Try for free
