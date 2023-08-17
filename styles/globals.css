@@ -2,26 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+
+
+
+
+.custom-padding {
+    padding: min(0.75vw,10px);
+}
+.custom-padding-2{
+    padding: min(0.6vw,8px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.rounded-custom-outer {
+    border-radius: min(1.4vw,18px);
+}
+
+.mix-blend-screen {
+    mix-blend-mode: screen;
+}
+
+.custom-width {
+    width: min(60vw,800px);
+}
+
+.rounded-custom-regular{
+    border-radius: min(1vw,13px);
+}
+
+canvas, img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+.custom-padding-large-2 {
+    padding-bottom: min(7.1vw,105px);
+    padding-top: min(7.1vw,105px);
+}
+
+.custom-padding-large-1 {
+    padding-left: min(7.9vw,105px);
+    padding-right: min(7.9vw,105px);
+}
+
+.custom-width-small {
+    width: min(11.4vw,152px);
+}
+
+
+.bring-in-small-1 {
+    animation: bring-y-small-c9e1f86f .3s ease-out;
+    -webkit-animation: bring-y-small-c9e1f86f .3s ease-out;
+}
+
+@keyframes bring-y-small-c9e1f86f{
+    0% {
+        opacity: .8;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.bring-in-small-2 {
+  animation: bring-y-small-2-c9e1f86f 0.8s;
+  -webkit-animation: bring-y-small-2-c9e1f86f 0.8s;
+}
+
+@keyframes bring-y-small-2-c9e1f86f {
+  0% {
+    opacity: 0.8;
+    transform: translate (50px);
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
