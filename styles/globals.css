@@ -53,8 +53,8 @@ canvas, img, picture, svg, video {
 
 
 .bring-in-small-1 {
-    animation: bring-y-small-c9e1f86f .6s ease-out;
-    -webkit-animation: bring-y-small-c9e1f86f .6s ease-out;
+    animation: bring-y-small-c9e1f86f .4s ease-out;
+    -webkit-animation: bring-y-small-c9e1f86f .4s ease-out;
 }
 
 @keyframes bring-y-small-c9e1f86f{
